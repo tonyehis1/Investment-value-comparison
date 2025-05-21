@@ -182,7 +182,6 @@
         )
     )
 )
-
 ;; Find the brand with the best ROI
 (define-read-only (find-best-investment)
     (let ((brands (var-get clarinet-brands)))
