@@ -214,7 +214,6 @@
         )
     )
 )
-
 ;; Initialize database with sample clarinets
 (begin
     ;; Set initial current year to 2023 for examples
