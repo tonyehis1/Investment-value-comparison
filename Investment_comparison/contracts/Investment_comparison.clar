@@ -80,7 +80,6 @@
         )
     )
 )
-
 ;; Get a specific brand's information
 (define-read-only (get-brand (brand-name (string-ascii 50)))
     (let ((result (fold find-brand-fold 
