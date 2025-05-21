@@ -126,7 +126,6 @@
         )
     )
 )
-
 ;; Helper for update-value
 (define-private (update-brand-fold 
     (entry {brand: (string-ascii 50), initial-value: uint, current-value: uint, purchase-year: uint})
